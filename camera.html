@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>VEL TECH DECODERS</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+			<div id="wrapper">
+					<header id="header">
+							<div class="inner">
+								<h1>Click on start camera. </h1>
+						</div>
+            <div class="mb10">
+              <button onclick=" toggleVideo()" id="trackbutton" class="bx--btn bx--btn--secondary" type="button">
+                Start Camera
+              </button>
+              <div id="updatenote" class="updatenote mt10"> Loading model ..</div>
+            </div>
+            </header>
+
+					<div id="mb10">
+						<video class="videobox canvasbox" autoplay="autoplay" id="myvideo"></video>
+           				<canvas id="canvas" class="border canvasbox"></canvas>
+					</div> 
+
+					<footer id="footer">
+						<p class="copyright">&copy; Designed and developed by VEL TECH DECODERS</p>
+					</footer>
+			</div>
+			<div id="bg"></div>
+			<script src="https://unpkg.com/carbon-components@latest/scripts/carbon-components.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/handtrackjs/dist/handtrack.min.js"> </script>
+			<script src="track.js"></script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
